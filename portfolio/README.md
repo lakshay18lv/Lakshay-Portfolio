@@ -52,21 +52,6 @@ If Tailwind classes not applied:
   - components/ — SectionTitle, Header, HeroSection, ProjectsSection, SkillsSection, ContactSection, ...
   - data/portfolio-data.js — profile, projects, skills, experience, education, certifications
 
-## Add a live project link
-
-1. In src/data/portfolio-data.js add `live` (and optional `repo`) to a project:
-
-```js
-{
-  name: "My Project",
-  summary: "...",
-  live: "https://example.com",
-  repo: "https://github.com/..."
-}
-```
-
-2. ProjectsSection renders Live and Source buttons when fields exist.
-
 ## Deploy
 
 - Build: npm run build
