@@ -26,9 +26,9 @@ export function HeroSection() {
         </h1>
 
         <p className="mt-6 max-w-2xl text-base leading-8 text-slate-300 md:text-lg">
-          Pre-final year CSE undergraduate focused on MERN stack development,
-          REST APIs, JWT authentication, and shipping polished web applications
-          with real-world impact.
+          Final-year Computer Science undergraduate skilled in MERN Stack, REST APIs, and JWT Authentication. Completed a
+Web Development Internship and developed multiple full-stack projects. Proficient in React.js, Node.js, Express.js,
+MongoDB, Git, and GitHub, with strong problem-solving and software development skills.
         </p>
 
         <div className="mt-8 flex flex-wrap gap-4">

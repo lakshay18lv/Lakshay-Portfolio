@@ -10,6 +10,19 @@ export const profile = {
 
 export const projects = [
   {
+    name: "NextStep AI - Interview Preparation Platform",
+    tech: "React.js, Node.js, Express.js, MongoDB, OpenAI API, JWT",
+    summary:
+      "An AI-assisted interview prep product focused on resume-aware question generation and practice flow.",
+    bullets: [
+      " Developed a MERN stack AI interview prep platform with JWT authentication, email verification, and protected routes",
+      " Integrated resume-based question generation using OpenAI with difficulty-level customization and fallback logic.",
+      " Built feedback and skill tracking modules with MongoDB to store interview performance and progress history.",
+    ],
+    live: "https://nextstep-ai-1-owom.onrender.com/",
+    repo: "https://github.com/lakshay18lv/NextStep-AI",
+  },
+  {
     name: "Complaint Tracker System",
     tech: "React, Node.js, Express, MongoDB, JWT, Multer",
     summary:
@@ -35,17 +48,6 @@ export const projects = [
     ],
     live: "https://tripkey.onrender.com/listings",
     repo: "https://github.com/lakshay18lv/FixFlow",
-  },
-  {
-    name: "NextStep AI - Interview Preparation Platform",
-    tech: "React.js, Node.js, Express.js, MongoDB, OpenAI API, JWT",
-    summary:
-      "An AI-assisted interview prep product focused on resume-aware question generation and practice flow.",
-    bullets: [
-      "Building secure authentication and personalized interview pipelines.",
-      "Developing resume-based question generation and difficulty controls.",
-      "Adding feedback and interview history modules for continuous improvement.",
-    ],
   },
 ];
 
