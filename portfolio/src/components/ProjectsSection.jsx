@@ -26,7 +26,7 @@ export function ProjectsSection() {
                 </p>
               </div>
               <span className="rounded-full border border-sky-400/20 bg-sky-400/10 px-3 py-1 text-xs font-medium text-sky-200 whitespace-nowrap">
-                Featured
+                {project.status || "Featured"}
               </span>
             </div>
 

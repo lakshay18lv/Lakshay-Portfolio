@@ -14,21 +14,15 @@ export function HeroSection() {
         </div>
 
         <h1 className="mt-6 max-w-4xl text-5xl font-black leading-[1.05] tracking-tight text-white md:text-7xl">
-          I build clean, reliable full-stack products with{" "}
+          Computer Science student and{" "}
           <span className="bg-gradient-to-r from-sky-400 to-violet-400 bg-clip-text text-transparent">
-            React
-          </span>{" "}
-          and{" "}
-          <span className="bg-gradient-to-r from-sky-400 to-violet-400 bg-clip-text text-transparent">
-            Node.js
+            {profile.title}
           </span>
           .
         </h1>
 
         <p className="mt-6 max-w-2xl text-base leading-8 text-slate-300 md:text-lg">
-          Final-year Computer Science undergraduate skilled in MERN Stack, REST APIs, and JWT Authentication. Completed a
-Web Development Internship and developed multiple full-stack projects. Proficient in React.js, Node.js, Express.js,
-MongoDB, Git, and GitHub, with strong problem-solving and software development skills.
+          {profile.summary}
         </p>
 
         <div className="mt-8 flex flex-wrap gap-4">
@@ -43,13 +37,6 @@ MongoDB, Git, and GitHub, with strong problem-solving and software development s
             className="rounded-full border border-white/15 bg-white/5 px-6 py-3 text-sm font-semibold text-white transition hover:bg-white/10"
           >
             Contact Me
-          </a>
-          <a
-            href="/resume.pdf"
-            download="Lakshay_Verma_Resume.pdf"
-            className="rounded-full border border-sky-400/25 bg-sky-500/10 px-6 py-3 text-sm font-semibold text-sky-100 transition hover:bg-sky-500/20"
-          >
-            Download Resume
           </a>
         </div>
 

@@ -1,77 +1,75 @@
 export const profile = {
-  name: "Lakshay",
+  name: "Lakshay Verma",
   title: "MERN Stack Developer",
   location: "Bhiwani, Haryana",
   phone: "+91 7015364306",
   email: "vermalakshay773@gmail.com",
   linkedin: "linkedin.com/in/lakshay-verma-1141b9305",
   github: "github.com/lakshay18lv",
+  summary:
+    "Final-year Computer Science undergraduate and MERN Stack Developer with hands-on experience building full-stack web applications using React.js, Node.js, Express.js, and MongoDB. Experienced in authentication, authorization, REST APIs, responsive dashboards, Docker, AWS EC2, and CI/CD workflows.",
 };
 
 export const projects = [
   {
-    name: "NextStep AI - Interview Preparation Platform",
+    name: "NextStep AI – AI-Based Interview Preparation Web App",
     tech: "React.js, Node.js, Express.js, MongoDB, OpenAI API, JWT",
     summary:
-      "An AI-assisted interview prep product focused on resume-aware question generation and practice flow.",
+      "A MERN-stack interview preparation platform with personalized, resume-based practice.",
     bullets: [
-      " Developed a MERN stack AI interview prep platform with JWT authentication, email verification, and protected routes",
-      " Integrated resume-based question generation using OpenAI with difficulty-level customization and fallback logic.",
-      " Built feedback and skill tracking modules with MongoDB to store interview performance and progress history.",
+      "Built secure JWT authentication, email verification, and protected routes.",
+      "Integrated resume-based question generation with OpenAI and difficulty customization with fallback logic.",
+      "Created feedback and skill-tracking modules backed by MongoDB interview history.",
     ],
-    live: "https://nextstep-ai-1-owom.onrender.com/",
+
     repo: "https://github.com/lakshay18lv/NextStep-AI",
   },
   {
     name: "Complaint Tracker System",
-    tech: "React, Node.js, Express, MongoDB, JWT, Multer",
+    tech: "React.js, Node.js, Express.js, MongoDB, JWT, Multer",
     summary:
-      "Full-stack complaint tracking platform with secure access, status updates, and automated notifications.",
+      "A full-stack application for submitting complaints and tracking their status.",
     bullets: [
-      "Built a complaint submission and tracking workflow with real-time status updates.",
-      "Implemented JWT authentication and role-based access control.",
-      "Integrated Nodemailer for automated email alerts.",
-      "Enabled file uploads with Multer for supporting documents.",
+      "Built user complaint submission and status tracking with updates.",
+      "Implemented secure JWT authentication and role-based access control.",
+      "Containerized and deployed the application using Docker on AWS EC2, gaining hands-on experience in cloud deployment and application hosting."
     ],
-    live: "https://https://fixflow1.onrender.com/",
+    live: "http://ec2-13-49-222-141.eu-north-1.compute.amazonaws.com/login/",
     repo: "https://github.com/lakshay18lv/FixFlow",
   },
   {
-    name: "Trip Key - Hotel / Listing Web App",
+    name: "TripKey – Hotel / Listing Web App",
     tech: "Node.js, Express.js, MongoDB, EJS, Bootstrap",
     summary:
-      "Property listing experience with authentication, CRUD flows, and map-driven discovery.",
+      "A hotel listing app with authentication, listing management, and map-based discovery.",
     bullets: [
-      "Implemented user authentication, authorization, and listing management.",
-      "Added map integration to surface hotel locations clearly.",
-      "Structured the app for maintainable backend and UI workflows.",
+      "Implemented user authentication, authorization, and CRUD operations for hotel listings.",
+      "Added map integration to display hotel locations and improve user interaction.",
     ],
     live: "https://tripkey.onrender.com/listings",
-    repo: "https://github.com/lakshay18lv/FixFlow",
+    repo: "https://tripkey.onrender.com/listings"
   },
 ];
 
 export const skills = [
   ["Frontend", ["HTML", "CSS", "Tailwind CSS", "Bootstrap", "React.js"]],
-  ["Backend", ["Node.js", "Express.js", "MongoDB", "MySQL", "REST APIs"]],
+  ["Backend", ["Node.js", "Express.js", "REST APIs"]],
+  ["Databases", ["MongoDB", "MySQL"]],
   ["Authentication", ["JWT"]],
   ["Languages", ["Java", "JavaScript", "Python"]],
-  ["Core Concepts", ["DSA", "OOPs", "DBMS", "OS"]],
-  [
-    "Tools",
-    ["Git", "GitHub", "VS Code", "Postman", "Nodemailer", "Multer", "Render"],
-  ],
+  ["DevOps & Deployment", ["Docker", "AWS EC2", "CI/CD", "GitHub Actions"]],
+  ["Tools", ["Git", "GitHub", "VS Code", "Postman", "Nodemailer", "Multer", "Render", "Netlify"]],
 ];
 
 export const experience = {
-  company: "ALGONIVE",
+  company: "Railbit Engineers Pvt. Ltd.",
   role: "Web Development Intern",
-  date: "Jan 2026 - March 2026",
-  location: "Remote",
+  date: "July 2026 – August 2026",
+  location: "Noida, India",
   bullets: [
-    "Built a React e-commerce page with dynamic filtering and cart interactions.",
-    "Created a task manager application using HTML, CSS, and JavaScript.",
-    "Collaborated across frontend and backend tasks while keeping delivery clean and on schedule.",
+    "Developed web applications involving user authentication, registration, login, logout, and session handling.",
+    "Implemented authorization using protected routes and role-based access control to manage user permissions.",
+    "Built a responsive dashboard with 10+ reusable UI components to support application functionality.",
   ],
 };
 
@@ -79,20 +77,21 @@ export const education = [
   {
     school: "The Technological Institute of Textile and Sciences",
     place: "Bhiwani, Haryana",
-    degree: "B.Tech in Computer Science",
-    detail: "CGPA: 7.35/10.0 - till 5th semester",
-    year: "2023 - 2027",
+    degree: "Bachelor of Technology in Computer Science",
+    detail: "CGPA: 7.35/10.0 (through 6th semester)",
+    year: "2023 – 2027",
   },
   {
-    school: "K.C.M Arm Sr. Sec. School",
+    school: "K.C.M. Army Sr. Sec. School",
     place: "Bhiwani, Haryana",
     degree: "Senior Secondary (12th), Non-Medical",
     detail: "",
-    year: "2022 - 2023",
+    year: "2022 – 2023",
   },
 ];
 
 export const certifications = [
-  "Full Stack Web Development certification from GeeksforGeeks",
-  "National Workshop on DSA and Front-End Development (ALGOUI) - TIT&S, Bhiwani",
+  "Secured 1st place among 13 teams in the internal Smart India Hackathon (SIH) with the TrustID project.",
+  "Successfully completed Full Stack Web Development certification from GeeksforGeeks Skill Up.",
+  "Attended the National Workshop on DSA and Front-End Development (ALGOUI), TIT&S, Bhiwani.",
 ];
