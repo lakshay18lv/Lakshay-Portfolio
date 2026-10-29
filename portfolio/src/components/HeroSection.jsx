@@ -38,6 +38,13 @@ export function HeroSection() {
           >
             Contact Me
           </a>
+          <a
+            href="/resume.pdf"
+            download="Lakshay_Verma_Resume.pdf"
+            className="rounded-full border border-sky-400/25 bg-sky-500/10 px-6 py-3 text-sm font-semibold text-sky-100 transition hover:bg-sky-500/20"
+          >
+            Download Resume
+          </a>
         </div>
 
         <div className="mt-10 grid gap-4 sm:grid-cols-3">
